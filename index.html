@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Bootstrap</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bootsrap</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search" />
+          </form>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+             
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Opcion
+              </a>
+              <ul class="dropdown-menu" id="tableDropdown">
+                <li>
+                  <a class="dropdown-item" href="#"><u>Opcion 1</u></a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#"><u>Opcion 2</u></a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><u>Opcion 3</u></a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#"><u>Opcion 4</u></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="titles text-center mt-5">
+      <h3>Lorem ipsum dolor sit amet ...</h3>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <h4>Lorem, ipsum.</h4>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <h4>Lorem, ipsum.</h4>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <h4>Lorem, ipsum dolor.</h4>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+    <section class="sectionInfo">
+      <div class="container">
+         <div class="divOption">
+          <div class="divUno"><p><a href="">Opcion 1</a></p></div>
+          <div class="divUno"><p><a href="">Opcion 2</a></p></div>
+          <div class="divUno"><p><a href="">Opcion 3</a></p></div>
+          <div class="divUno"><p><a href="">Opcion 4</a></p></div>
+         </div>
+         <div>Col 1Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti numquam aperiam harum obcaecati blanditiis, doloremque fuga nesciunt esse, nulla laudantium nostrum sed tenetur. Sed non voluptatibus id earum officiis dolorem tempora voluptas quod iure repellat quibusdam, tempore dicta delectus rerum perferendis expedita natus optio est, dignissimos, fugiat nulla unde quae totam. Magnam praesentium eaque culpa nostrum provident quis harum ducimus!</div>
+         <div>Col 2Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum architecto repellat iusto fugiat necessitatibus quo. Animi cumque veritatis quo, ipsum porro obcaecati voluptatibus quasi maiores, exercitationem voluptatem tempora a vero odit magnam neque at harum iste? Sunt at sequi consequuntur? Voluptatem commodi doloribus, eveniet veniam mollitia perspiciatis ducimus omnis, iusto maiores error ipsa placeat officia ullam dolor beatae tempore quam.</div>
+         <div class="divCol">Col 3Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sed animi rerum harum aliquam magnam labore ad maxime, tempore fugiat ipsum minima quibusdam iste dicta quia nemo nam commodi accusamus ea repudiandae eaque! Vitae adipisci corrupti molestias veniam eaque cum harum! Architecto et nobis, eos, necessitatibus possimus ipsum suscipit eius unde incidunt obcaecati aut hic dolor inventore at recusandae. Numquam.</div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><script src="script.js"></script>
+  </body>
+</html>
+         
+
+
+
+
+    
